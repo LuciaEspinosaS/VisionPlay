@@ -1,0 +1,453 @@
+{
+  "name": "cabecera",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "AFdA8RFxJr5tJTbLkkKJfi",
+    "node": "23:336",
+    "version": "5843595367",
+    "component-id": "58f8889fd01d68f7dc165e292da2d869e3b17266"
+  },
+  "default": "Property=Perfil",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "salir2"
+      },
+      {
+        "type": "text",
+        "id": "Favorites"
+      },
+      {
+        "type": "vector",
+        "id": "salir"
+      },
+      {
+        "type": "text",
+        "id": "Genres"
+      },
+      {
+        "type": "text",
+        "id": "Billboard"
+      },
+      {
+        "type": "vector",
+        "id": "volver"
+      },
+      {
+        "type": "text",
+        "id": "Género"
+      },
+      {
+        "type": "vector",
+        "id": "volver2"
+      },
+      {
+        "type": "text",
+        "id": "VisionPlay"
+      }
+    ],
+    "modes": {
+      "Property=Perfil": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "15.0",
+              "top": "12.0",
+              "right": "15.0",
+              "bottom": "12.0"
+            },
+            "arrangement": "row",
+            "children": [
+              "salir2",
+              "Favorites",
+              "salir"
+            ],
+            "item-spacing": "76.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "1.0",
+              "value": "0.5411764705882353"
+            }
+          },
+          {
+            "id": "salir2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "27.1875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "28.0"
+              }
+            },
+            "vector-content": "salir2.svg"
+          },
+          {
+            "id": "Favorites",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "130.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "28.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$username",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "28.0",
+            "line-height": "1.18701171875",
+            "typeface": "Kameron"
+          },
+          {
+            "id": "salir",
+            "tap-handler": "$salir",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "27.1875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "28.0"
+              }
+            },
+            "vector-content": "salir.svg"
+          }
+        ]
+      },
+      "Property=Genres": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "136.0",
+              "top": "12.0",
+              "right": "136.0",
+              "bottom": "12.0"
+            },
+            "arrangement": "row",
+            "children": [
+              "Genres"
+            ],
+            "item-spacing": "10.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "1.0",
+              "value": "0.5411764705882353"
+            }
+          },
+          {
+            "id": "Genres",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "100.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "31.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Genres",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "bottom",
+            "text-size": "28.0",
+            "line-height": "1.18701171875",
+            "typeface": "Kameron"
+          }
+        ]
+      },
+      "Property=Cartelera": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "136.0",
+              "top": "12.0",
+              "right": "136.0",
+              "bottom": "12.0"
+            },
+            "arrangement": "row",
+            "children": [
+              "Billboard"
+            ],
+            "item-spacing": "10.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "1.0",
+              "value": "0.5411764705882353"
+            }
+          },
+          {
+            "id": "Billboard",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "133.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "33.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Billboard",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "28.0",
+            "line-height": "1.18701171875",
+            "typeface": "Kameron"
+          }
+        ]
+      },
+      "Property=volver": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "14.0",
+              "top": "12.0",
+              "right": "14.0",
+              "bottom": "12.0"
+            },
+            "arrangement": "row",
+            "children": [
+              "volver",
+              "Género",
+              "volver2"
+            ],
+            "item-spacing": "70.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "1.0",
+              "value": "0.5411764705882353"
+            }
+          },
+          {
+            "id": "volver",
+            "tap-handler": "$volver",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "27.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "28.0"
+              }
+            },
+            "vector-content": "volver.svg"
+          },
+          {
+            "id": "Género",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "151.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "27.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$generoSeleccionado",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "28.0",
+            "line-height": "1.18701171875",
+            "typeface": "Kameron"
+          },
+          {
+            "id": "volver2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "27.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "28.0"
+              }
+            },
+            "vector-content": "volver2.svg"
+          }
+        ]
+      },
+      "Property=VisionPlay": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "15.0",
+              "top": "12.0",
+              "right": "15.0",
+              "bottom": "12.0"
+            },
+            "arrangement": "row",
+            "children": [
+              "VisionPlay"
+            ],
+            "item-spacing": "76.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "1.0",
+              "value": "0.5411764705882353"
+            }
+          },
+          {
+            "id": "VisionPlay",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "157.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "VisionPlay",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "28.0",
+            "line-height": "1.18701171875",
+            "typeface": "Kameron"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "username": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "salir": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "volver": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "generoSeleccionado": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Property=Perfil",
+      "size": {
+        "width": 358.0,
+        "height": 56.0
+      },
+      "parameters": {
+        "username": "Favorites",
+        "generoSeleccionado": "Género"
+      }
+    },
+    {
+      "design": "Property=Genres",
+      "size": {
+        "width": 358.0,
+        "height": 56.0
+      },
+      "parameters": {
+        "username": "Favorites",
+        "generoSeleccionado": "Género"
+      }
+    },
+    {
+      "design": "Property=Cartelera",
+      "size": {
+        "width": 358.0,
+        "height": 56.0
+      },
+      "parameters": {
+        "username": "Favorites",
+        "generoSeleccionado": "Género"
+      }
+    },
+    {
+      "design": "Property=volver",
+      "size": {
+        "width": 358.0,
+        "height": 56.0
+      },
+      "parameters": {
+        "username": "Favorites",
+        "generoSeleccionado": "Género"
+      }
+    },
+    {
+      "design": "Property=VisionPlay",
+      "size": {
+        "width": 358.0,
+        "height": 56.0
+      },
+      "parameters": {
+        "username": "Favorites",
+        "generoSeleccionado": "Género"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
